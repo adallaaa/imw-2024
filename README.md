@@ -2,3 +2,6 @@
 Repository for IMW Demo
 
 WIP For Interactive Media Web
+
+To Do List
+Create my first index file
