@@ -1,0 +1,141 @@
+body {
+    background-color: #D7FAFF;
+}
+
+.painting-1 {
+    display: grid;
+    width: 1458px;
+    height: 972px;
+
+    border: 1px solid black;
+    /* For Testing */
+
+    /* 54px Grid on Figma */
+    grid-template-columns: repeat(27, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+
+/*Scene 1 Colours*/
+.pantblue {
+    background-color: #89BECA;
+}
+
+.skin{
+    background-color: #F0D9C3;
+}
+
+.shoebrown{
+    background-color: #635854;
+}
+
+.green {
+    background-color: #AAC99F;
+}
+
+.red{
+    background-color: #B44343;
+}
+
+.white {
+    background-color: white;
+}
+/*Pant Sections*/
+.pantsection {
+    grid-column: 6 / 8;
+    grid-row: 12 / 14;
+}
+.pantsectionshoe {
+    grid-column: 6 / 8;
+    grid-row: 14 / 15;
+}
+/*Shirt Sections*/
+.TorsoSection {
+    grid-column: 6 / 8;
+    grid-row: 9 / 12;
+}
+
+.RArmSectionShirt {
+    grid-column: 5;
+    grid-row: 9 / 11;
+}
+
+.RArmSectionSkin {
+    grid-column: 5;
+    grid-row: 11;
+}
+
+.LArmSectionShirt {
+    grid-column: 8;
+    grid-row: 9 / 11;
+}
+
+.LArmSectionSkin {
+    grid-column: 8;
+    grid-row: 11;
+}
+/*Head Sections*/
+
+.HeadSection {
+    grid-column: 6 / 8;
+    grid-row: 7 / 9;
+}
+
+.HairSectionOne {
+    grid-column: 6 / 8;
+    grid-row: 7;
+}
+
+.HairSectionTwo {
+    grid-column: 8;
+    grid-row: 7 / 9;
+}
+
+.HairSectionThree {
+    grid-column: 5;
+    grid-row: 7 / 9;
+}
+
+/*Background Sections*/
+.ground{
+    grid-column: 1/28;
+    grid-row: 15/19;
+}
+
+.SunSection {
+    grid-column: 25 / 27;
+    grid-row: 2 / 4;
+}
+
+/*Border*/
+.border-top-brown {
+    border-top: 20px solid #635854;
+}
+
+.border-bottom-brown {
+    border-bottom: 20px solid #635854;
+}
+
+.border-left-brown {
+    border-left: 20px solid #635854;
+}
+
+.border-right-brown {
+    border-right: 20px solid #635854;
+}
+
+.border-right-red {
+    border-right: 20px solid #B44343;
+}
+
+.border-left-red {
+    border-left: 20px solid #B44343;
+}
+
+.border-right-skin {
+    border-right: 20px solid #F0D9C3;
+}
+
+.border-left-skin {
+    border-left: 20px solid #F0D9C3;
+}
+

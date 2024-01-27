@@ -1,0 +1,133 @@
+body {
+    background-color: #D7FAFF;
+}
+
+.painting-1 {
+    display: grid;
+    width: 1458px;
+    height: 972px;
+
+    border: 1px solid black;
+    /* For Testing */
+
+    /* 54px Grid on Figma */
+    grid-template-columns: repeat(27, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+
+/*Scene 3 Colours*/
+.pantblue {
+    background-color: #89BECA;
+}
+
+.skin{
+    background-color: #F0D9C3;
+}
+
+.shoebrown{
+    background-color: #635854;
+}
+
+.red{
+    background-color: #B44343;
+}
+
+.snowwhite {
+    background-color: rgb(217, 223, 229);
+}
+
+.white {
+    background-color: white;
+}
+
+.helmet-snowboard-gray {
+    background-color: #383a37;
+}
+
+/*Character Sections*/
+.leftleg {
+    grid-column: 6;
+    grid-row: 12/15;
+}
+
+.rightleg {
+    grid-column: 9;
+    grid-row: 12/15;
+}
+
+.toptorso {
+    grid-column: 7 / 9;
+    grid-row: 9/12;
+}
+
+.lowertorso {
+    grid-column: 7 /9;
+    grid-row: 12;
+}
+
+.rightarm {
+    grid-column: 9 / 12;
+    grid-row: 9;
+}
+
+.rightarmtop {
+    grid-column: 11;
+    grid-row: 9;
+}
+
+.leftarm {
+    grid-column: 5 / 7;
+    grid-row: 9;
+}
+
+.leftarmtop {
+    grid-column: 5;
+    grid-row: 8;
+}
+
+.head {
+    grid-column: 7 / 9;
+    grid-row: 7 / 9;
+}
+
+/*Prop Section*/
+.snowboard {
+    grid-column: 4/ 12;
+    grid-row: 15;
+}
+
+.helmet {
+    grid-column: 7/ 9;
+    grid-row: 7;
+}
+
+
+
+/*BG Sections*/
+
+.ground {
+    grid-column: 1/28;
+    grid-row: 10/19;
+}
+
+.Sun {
+    grid-column: 3 / 5;
+    grid-row: 2 / 4
+}
+
+/*Border Section*/
+.border-top-brown {
+    border-top: 20px solid #383a37;
+}
+
+.border-bottom-brown {
+    border-bottom: 20px solid #383a37;
+}
+
+.border-left-brown {
+    border-left: 20px solid #383a37;
+}
+
+.border-right-brown {
+    border-right: 20px solid #383a37;
+}

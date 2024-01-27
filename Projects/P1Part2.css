@@ -1,0 +1,66 @@
+body {
+    background-color: #D7FAFF;
+}
+
+.painting-1 {
+    display: grid;
+    width: 1458px;
+    height: 972px;
+
+    border: 1px solid black;
+    /* For Testing */
+
+    /* 54px Grid on Figma */
+    grid-template-columns: repeat(27, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+
+/*Colours*/
+.blue {
+    background-color: #526071;
+}
+
+.tireblack {
+    background-color: #2A2C29;
+}
+
+.asphaltgray {
+    background-color: #464A45;
+}
+
+.white {
+    background-color: white;
+}
+
+/*Car Section Col: 7 - 21 Row 11 / 13*/
+.CarSectionOne {
+    grid-column: 7 / 21;
+    grid-row: 11 / 14;
+}
+
+.CarSectionTwo {
+    grid-column: 10 / 19;
+    grid-row: 9 / 11;
+}
+
+.CarTireOne {
+    grid-column: 9 / 11;
+    grid-row: 13 / 15
+}
+
+.CarTireTwo {
+    grid-column: 17 / 19;
+    grid-row: 13 / 15
+}
+
+/*Background Section*/
+
+.Sun {
+    grid-column: 13 / 15;
+    grid-row: 2 / 4
+}
+
+.ground{
+    grid-column: 1/28;
+    grid-row: 15/19;
+}
