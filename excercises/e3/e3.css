@@ -1,0 +1,80 @@
+.monospace {
+    font-family: monospace;
+}
+
+.adobe_font {
+    font-family: "acier-bat-noir", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 250ms, transform 750ms;
+
+    &:hover {
+        color: red;
+        transform: translateY(-100px);  
+    }
+}
+
+.fontstyleTwo {
+    font-family: "dovetail-mvb", serif;
+    font-weight: 900;
+    font-style: normal;
+    transition: transform 750ms;
+
+    &:hover {
+        transform: rotate(20deg);
+    }
+}
+
+.fontstyleThree {
+    font-family: "paroli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+/*Reference From: https://stackoverflow.com/questions/26544338/making-text-larger-in-css-using-hover-and-making-it-revert-to-its-smaller-i*/
+    &:hover {
+        font-size:50px;
+        font-size-adjust: 20px;
+    }
+}
+
+.google_font {
+    font-family: "Arvo", serif;
+
+    &:hover{
+        animation-name: slide-right;
+        animation-duration: 1s;
+    }
+}
+
+@font-face {
+    font-family: 'Bespoke';
+    src: url('fonts/Bespoke-FA76vpxgIc.eot');
+    src: url('fonts/Bespoke-FA76vpxgIc.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Bespoke-FA76vpxgIc.woff') format('woff'),
+       url('fonts/Bespoke-FA76vpxgIc.ttf') format('truetype'),
+       url('fonts/Bespoke-FA76vpxgIc.svg#Bespoke-FA76vpxgIc') format('svg');
+  }
+
+  .self-hosted {
+    font-family: 'Bespoke', sans-serif;
+    transition: color 250ms, transform 750ms;
+
+    /*New CSS Technique, previously you'd have to do what's commented out below, but CSS has a new method where you can nest variables related to each other together */
+    &:hover {
+        color: red;
+        transform: translateX(100px);
+    }
+  }
+
+  @keyframes slide-right{
+    to {
+        transform: translateX(0px);
+    }
+    from {
+        transform: translateX(100px);
+    }
+  }
+
+  /*.self-hosted:hover {
+    color: red;
+  }*/
