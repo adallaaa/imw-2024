@@ -1,0 +1,157 @@
+/*Website Foundation ----------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 36px 30px 36px;
+}
+
+.hero-section {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DEF4C8;
+    background-size: 40px 40px;
+    background-image:
+        linear-gradient(to right, #cba899 1px, transparent 1px),
+        linear-gradient(to bottom, #cba899 1px, transparent 1px);
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 36px 30px 36px;
+}
+
+/*Website Objects -------------------------------------------*/
+.bookbutton {
+    background-color: #F9763D;
+    width: 30vw;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    transition: color 250ms, transform 750ms;
+
+    &:hover {
+        color: #542714;
+        transform: translateY(-10px);
+    }
+}
+
+.hometext {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-left: 0px
+}
+
+.learntext {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-left: 0px
+}
+
+.footertext {
+    font-size: 8px;
+    font-weight: 500;
+    color: white;
+
+}
+
+/*Text CSS --------------------------------------------------*/
+h1 {
+    font-size: 6.5vw;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    line-height: 106px;
+    margin-bottom: 10px;
+    color: #F9763D;
+    transition: color 250ms, transform 750ms;
+
+    &:hover {
+        color: #ff4d00;
+        transform: translateY(-10px);
+        transform: scale(1.1)
+    }
+}
+
+h2 {
+    font-size: 2vw;
+    font-weight: 500px;
+    margin-bottom: 30px;
+    transition: color 250ms, transform 750ms;
+
+    &:hover {
+        transform: translateY(-10px);
+        transform: scale(1.1)
+    }
+}
+
+h3 {
+    font-size: 3vw;
+    font-weight: 500px;
+    transition: color 250ms, transform 750ms;
+
+    &:hover {
+        transform: translateY(-10px);
+        transform: scale(1.1)
+    }
+}
+
+a {
+    text-decoration: none
+}
+
+/*Fonts -----------------------------------------*/
+.jetbrain {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.jetbrain-bold {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.jetbrain-interactive {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    transition: color 250ms, transform 750ms;
+
+    &:hover {
+        color: #F9763D;
+        transform: translateY(-10px);
+    }
+}
