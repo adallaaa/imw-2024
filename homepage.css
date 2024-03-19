@@ -1,0 +1,31 @@
+header {
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 36px 30px 36px;
+}
+
+.hero-section {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DEF4C8;
+    background-size: 40px 40px;
+    background-image:
+        linear-gradient(to right, #cba899 1px, transparent 1px),
+        linear-gradient(to bottom, #cba899 1px, transparent 1px);
+}
+
+footer {
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 36px 30px 36px;
+}
