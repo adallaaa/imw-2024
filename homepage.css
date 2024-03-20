@@ -14,11 +14,15 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #DEF4C8;
+    background-color: #ffffff;
     background-size: 40px 40px;
     background-image:
-        linear-gradient(to right, #cba899 1px, transparent 1px),
-        linear-gradient(to bottom, #cba899 1px, transparent 1px);
+        linear-gradient(to right, #99aecb 1px, transparent 1px),
+        linear-gradient(to bottom, #99aecb 1px, transparent 1px);
+}
+
+body {
+    background-color: black;
 }
 
 footer {
@@ -28,4 +32,25 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 30px 36px 30px 36px;
+}
+
+h1 {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+p {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+a {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
