@@ -9,11 +9,12 @@ header {
 
 .hero-section {
     height: 100vh;
-    text-align: center;
+    text-align: left;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     flex-direction: column;
+    padding: 10px 10px 10px 36px;
     background-color: #ffffff;
     background-size: 40px 40px;
     background-image:
@@ -50,7 +51,20 @@ p {
 
 a {
     font-family: "JetBrains Mono", monospace;
+    color: purple;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    text-decoration: none;
+    transition: color 250ms, transform 750ms;
+
+    &:hover {
+        color: blue;
+        transform: translateX(30px);
+    }
+}
+
+.logo-text {
+    font-family: "JetBrains Mono", monospace;
+    color: white;
 }

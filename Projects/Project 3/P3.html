@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3 - Adam Kozsil</title>
+    <link rel="stylesheet" type="text/css" href="P3.css">
+</head>
+
+<body>
+    <header>
+        <a class="site-name">Bullet Hell Experience</a>
+        <a class="site-link" href="#" id="popup-link">About</a>
+    </header>
+    <div id="container">
+        <br>
+        <b>Arrow Keys To Move </b>
+        <br>
+        <b>Press SPACE to start & restart</b>
+        <canvas id="myCanvas"></canvas>
+        <script src="P3.js"></script>
+    </div>
+
+    <div id="popup-window">
+        <h1 class="pop-up-header">Different levels of Hide and Show</h1>
+        <br></br>
+        <p class="pop-up-text">What you're currently playing is a bullet-hell game utilizing a hide/show element to
+            confirm whether you've
+            been hit or not. Atop that this popup link is another method of show/hide using a button to bring up this
+            menu.</p>
+        <br>
+        <p class="pop-up-text">The code for the bullet hell game was developed last semester in my Intro to Computer
+            Science class and modified using the web design lessons learned in our class together.</p>
+        <br>
+        <br>
+        <button id="close-button">Close</button>
+        <script>
+            // Get the elements by their ID
+            var popupLink = document.getElementById("popup-link");
+            var popupWindow = document.getElementById("popup-window");
+            var closeButton = document.getElementById("close-button");
+            // Show the pop-up window when the link is clicked
+            popupLink.addEventListener("click", function (event) {
+                event.preventDefault();
+                popupWindow.style.display = "block";
+            });
+            // Hide the pop-up window when the close button is clicked
+            closeButton.addEventListener("click", function () {
+                popupWindow.style.display = "none";
+            });
+        </script>
+    </div>
+
+</body>
+<footer>
+    <a class="site-name-footer">Created by Adam Kozsil</a>
+</footer>
+
+</html>
